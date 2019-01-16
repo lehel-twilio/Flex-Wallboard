@@ -1,0 +1,36 @@
+@import "variables";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: $bg_color;
+}
+
+#dashboard {
+  max-width: $max_columns * ($widget_width + $gutter) - $gutter;
+  padding: $gutter;
+  margin: 0 auto;
+}
+
+.widget {
+  width: $widget_width - $widget_padding*2;
+  height: $widget_height - $widget_padding*2;
+  padding: $widget_padding;
+  background-color: $color_1;
+  color: #FFF;
+  h1 {
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 0;
+    font-size: 1.75em;
+  }
+}
+
+@for $i from 1 through 4 {
+  .w#{$i} {
+    width: ($widget_width * $i) + ($gutter * ($i - 1)) - ($widget_padding * 2);
+  }
+  .h#{$i} {
+    height: ($widget_height * $i) + ($gutter * ($i - 1)) - ($widget_padding * 2);
+  }
+}

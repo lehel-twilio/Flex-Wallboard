@@ -1,0 +1,19 @@
+@import "../styles/variables";
+
+.widget.number_widget {
+  background-color: $color_4;
+  .number {
+    font-size: 350%;
+  }
+}
+.number {
+  font-size: 350%;
+  text-align: center;
+}
+.text {
+  font-size: 350%;
+  text-align: center;
+}
+.invisible {
+  display: none;
+}
