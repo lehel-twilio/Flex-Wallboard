@@ -1,5 +1,7 @@
 Flex Wallboard is based on Handsome Framework created by David Underwood.
 
+![Wallboard](https://zaffre-cow-9057.twil.io/assets/sample%20wallboard.png)
+
 
 [![Build Status](https://travis-ci.org/davefp/handsome.svg?branch=master)](https://travis-ci.org/davefp/handsome)
 [![Coverage Status](https://coveralls.io/repos/github/davefp/handsome/badge.svg?branch=master)](https://coveralls.io/github/davefp/handsome?branch=master)
